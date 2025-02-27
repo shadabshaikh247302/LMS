@@ -1,0 +1,317 @@
+[
+  {
+    "Student Name": "Avinash",
+    "Phone": "8105056793",
+    "Course": [
+      "CTDM"
+    ],
+    "Email id": "avinashk1222@gmail.com",
+    "Date of Joining": "1/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Rosy kangjam",
+    "Phone": "9205830943",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "rosy.kangjam22@gmail.com",
+    "Date of Joining": "1/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Rahul singh",
+    "Phone": "7240131434",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "rahulsingh93865@gmail.com",
+    "Date of Joining": "1/3/2020",
+    "Fee": "22000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Dikshu joshi",
+    "Phone": "8882761845",
+    "Course": [
+      "MDS"
+    ],
+    "Email id": "Dikshujoshi@gmail.com",
+    "Date of Joining": "1/3/2020",
+    "Fee": "36000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Ayush Bhardwaj",
+    "Phone": "7838964717// 9654166902",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "Ashubj1998@gmail.com",
+    "Date of Joining": "3/3/2020",
+    "Fee": "22000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Utkarsh jayaswal",
+    "Phone": "9871561251",
+    "Course": [
+      "ADM",
+      "illustrator",
+      "photoshop"
+    ],
+    "Email id": "utkarshj291@gmail.com",
+    "Date of Joining": "4/3/2020",
+    "Fee": "26000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Ankur",
+    "Phone": "9839610075",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "ankursrivas15@gmail.com",
+    "Date of Joining": "4/3/2020",
+    "Fee": "23000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Aarti singh",
+    "Phone": "9625460041",
+    "Course": [
+      "CTDM"
+    ],
+    "Email id": "aartirajput2643@gmail.com",
+    "Date of Joining": "4/3/2020",
+    "Fee": "45000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Amrit",
+    "Phone": "9773523308",
+    "Course": [
+      "WD",
+      "CTDM"
+    ],
+    "Email id": "amrit98gl@gmail.com",
+    "Date of Joining": "5/3/2020",
+    "Fee": "90000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Aman",
+    "Phone": "9717124900",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "amanss3001@gmail.com",
+    "Date of Joining": "5/3/2020",
+    "Fee": "20000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Vishal",
+    "Phone": "9711195289",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "vishuforever18@gmail.com",
+    "Date of Joining": "5/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Jaskirat",
+    "Phone": "8527036597",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "jas.singh1996@gmail.com",
+    "Date of Joining": "5/3/2020",
+    "Fee": "60000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Sachin",
+    "Phone": "8860922999//8288868246",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "naugain.sachin@gmail.com",
+    "Date of Joining": "6/3/2020",
+    "Fee": "27000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Shekh Injamul",
+    "Phone": "9039835270",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "sqrda6@gmail.com",
+    "Date of Joining": "7/3/2020",
+    "Fee": "22000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Ketan",
+    "Phone": "9911233189//7011994825",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "ketangoyal001.kg@gmail.com",
+    "Date of Joining": "7/3/2020",
+    "Fee": "48000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Brijesh",
+    "Phone": "7763069448",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "brijesh9308@gmail.com",
+    "Date of Joining": "7/3/2020",
+    "Fee": "48000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Raghav",
+    "Phone": "9958957257",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "raghavthemizz@gmail.com",
+    "Date of Joining": "7/3/2020",
+    "Fee": "48000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Megha",
+    "Phone": "8630588929",
+    "Course": [
+      "CTDM"
+    ],
+    "Email id": "meghadevgan3@gmail.com",
+    "Date of Joining": "7/3/2020",
+    "Fee": "55000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Prince",
+    "Phone": "9268623267",
+    "Course": [
+      "MDS"
+    ],
+    "Email id": "prince.1994.agg@gmail.com",
+    "Date of Joining": "8/3/2020",
+    "Fee": "36000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Ankit",
+    "Phone": "9817217356",
+    "Course": [
+      "WD"
+    ],
+    "Email id": "xpanghal21@gmail.com",
+    "Date of Joining": "8/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Monika",
+    "Phone": "7503379949",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "monikasharmabotany@gmail.com",
+    "Date of Joining": "8/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Puneet",
+    "Phone": "8076077623",
+    "Course": [
+      "ADM"
+    ],
+    "Email id": "puneetattri3@gmail.com",
+    "Date of Joining": "9/3/2020",
+    "Fee": "22000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Chiranjeev",
+    "Phone": "8700145347",
+    "Course": [
+      "MDS"
+    ],
+    "Email id": "chirinjeevpnt682@gmail.com",
+    "Date of Joining": "11/3/2020",
+    "Fee": "36000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  },
+  {
+    "Student Name": "Aishwarya",
+    "Phone": "8777570307//9674875271",
+    "Course": [
+      "MBA"
+    ],
+    "Email id": "aishwaryaray61@gmail.com",
+    "Date of Joining": "11/3/2020",
+    "Fee": "50000",
+    "Password": "0123",
+    "isCourseCompleted": false,
+    "isFullyPaid": false
+  }
+]

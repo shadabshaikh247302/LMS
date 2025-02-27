@@ -1,0 +1,11 @@
+/techstack-lms/node_modules
+/techstack-lms/src/utils
+/techstack-server/node_modules
+
+/techstack-lms/package-lock.json
+/techstack-lms/.next
+
+/techstack-server/package-lock.json
+
+/techstack-server/config/config.env
+/techstack-lms/.env
