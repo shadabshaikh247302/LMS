@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import CourseDropdown from "../Dropdown/CourseDropdown";
 import BooleanButton from "../Button/BooleanButton";
 import ToggleDemoButton from "../Button/ToggleDemoButton";
@@ -15,21 +15,22 @@ const LeadTable = ({ leads, handleCourseSelectionChange }) => {
   const { leadData, leadDispatch } = useContext(LeadContext);
   const { studentData, studentDispatch } = useContext(StudentContext);
 
-  const [searchQuery, setSearchQuery] = React.useState(""); // State for search query
+  const [searchQuery, setSearchQuery] = useState("");
+  const [batch, setBatch] = useState({ batch: "" });
 
-  // Function to handle search input change
+  useEffect(() => {
+    // Any side effects here
+  }, []);
+
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
 
-  // Filter leads based on search query
-  const filteredLeads = leads.filter(lead => 
+  const filteredLeads = leads?.filter(lead => 
     lead.Name.toLowerCase().includes(searchQuery.toLowerCase()) || 
     lead.Phone.includes(searchQuery) || 
     lead["Email id"].toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  // ========================== Handle Update & Change =================================================================
+  ) || [];
 
   async function updateLeadData(leadId, updatedData) {
     try {
@@ -65,7 +66,6 @@ const LeadTable = ({ leads, handleCourseSelectionChange }) => {
     });
   }
 
-  // =============================== Formatter ========================================================================
   const formatDate = (isoDate) => {
     if (!isoDate) return ""; // "No Record"
     const date = new Date(isoDate);

@@ -18,6 +18,8 @@ const StudentTable = ({setStudents}) => {
   const { studentData, studentDispatch } = useContext(StudentContext);
   const { adminState } = useContext(MainAdminContext);
   const [adminToken, setAdminToken] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [batch, setBatch] = useState({ batch: "" });
 
   async function fetchStudent() {
     try {
@@ -98,9 +100,25 @@ const StudentTable = ({setStudents}) => {
     // const hours = date.getHours() % 12 || 12;
     // const minutes = date.getMinutes().toString().padStart(2, "0");
     // const ampm = date.getHours() >= 12 ? "PM" : "AM";
-    const [batch, setBatch]=useState({batch:""}) 
     return `${day}-${month}-${year}`; // ${hours}:${minutes} ${ampm}
   };
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const handleBatchChange = (e) => {
+    setBatch({ batch: e.target.value });
+  };
+
+  const filteredStudents = Array.isArray(studentData) 
+    ? studentData.filter(student => 
+        (student?.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+         student?.phone?.includes(searchQuery) ||
+         student?.email?.toLowerCase().includes(searchQuery.toLowerCase())) &&
+        (!batch.batch || student?.batch?.toLowerCase().includes(batch.batch.toLowerCase()))
+      ) 
+    : [];
 
   return (
     <div className="container-fluid mt-3 px-0">
@@ -389,3 +407,4 @@ const StudentTable = ({setStudents}) => {
 };
 
 export default StudentTable;
+// cxz
