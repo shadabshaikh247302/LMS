@@ -1,30 +1,31 @@
 "use client";
 import React, { useState, useEffect, useContext, Suspense } from "react";
 
-import { getAllLead, updateLead } from "@/app/api/leadApi";
-import { getAllPayment } from "@/app/api/paymentApi";
-import { getAllStd } from "@/app/api/studentApi";
+import { getAllLead, updateLead } from "../../../api/leadApi";
+import { getAllPayment } from "./../../../api/paymentApi/getAllPayment";
+import { getAllStd } from "../../../api/studentApi";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 
-import { UserContext } from "@/app/context/UserContext";
-import { LeadContext } from "@/app/context/LeadContext";
-import { PaymentContext } from "@/app/context/PaymentContext";
-import { StudentContext } from "@/app/context/StudentContext";
-import { MainAdminContext } from "@/app/context/AdminContext";
+import { UserContext } from "../../../context/UserContext";
+import { LeadContext } from "../../../context/LeadContext";
+import { PaymentContext } from "../../../context/PaymentContext";
+import { StudentContext } from "../../../context/StudentContext";
+import { MainAdminContext } from "../../../context/AdminContext";
 
-import Loader from "@/app/components/common/Loader";
-import CustomModal from "@/app/components/modal/CustomModal";
-import ModalButton from "@/app/components/Button/CustomModalBtn";
-import CreateLeadForm from "@/app/components/Form/CreateLeadForm";
-import NotificationButton from "@/app/components/Button/NotificationButton";
-
-const LeadTable = dynamic(() => import("@/app/components/table/LeadTable"), {
+import Loader from "../../../components/common/Loader";
+import CustomModal from "../../../components/modal/CustomModal";
+import ModalButton from "../../../components/Button/CustomModalBtn";
+import CreateLeadForm from "../../../components/Form/CreateLeadForm";
+// @/app/components/Form/CreateLeadForm
+import NotificationButton from "../../../app/components/Button/NotificationButton";
+// /app/components/table/LeadTable
+const LeadTable = dynamic(() => import("../../../components/table/LeadTable"), {
   loading: () => <Loader/>, // Optionally, show a loading state
   ssr: false, // Optional: Disable SSR if the component only works on the client side
 });
 
-const VarificationTable = dynamic(() => import("@/app/components/table/VerificationTable"), {
+const VarificationTable = dynamic(() => import("../../../components/table/VerificationTable"), {
   loading: () => <Loader/>, // Optionally, show a loading state
   ssr: false, // Optional: Disable SSR if the component only works on the client side
 });

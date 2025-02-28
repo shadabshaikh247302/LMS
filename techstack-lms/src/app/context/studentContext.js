@@ -14,6 +14,7 @@ function reducer(state,action){
             return state;
     }
 }
+    
 export const StudentContextProvider = ({children}) => {
     const [state, studentDispatch] = useReducer(reducer,data)
   return (
@@ -22,3 +23,7 @@ export const StudentContextProvider = ({children}) => {
     </StudentContext.Provider>
   )
 }
+
+
+
+

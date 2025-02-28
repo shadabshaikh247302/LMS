@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useEffect, useContext, Suspense } from "react";
-import { getAllStd, updateStd } from "@/app/api/studentApi"; 
+import { getAllStd, updateStd } from "../../../api/studentApi"; 
 
-import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "@/app/context/AdminContext";
-import { StudentContext } from "@/app/context/StudentContext";
+import { UserContext } from "../../../context/UserContext";
+import { MainAdminContext } from "../../../context/AdminContext";
+import { StudentContext } from "../../../context/StudentContext";
 import dynamic from "next/dynamic";
-import Loader from "@/app/components/common/Loader";
+import Loader from "../../../components/common/Loader";
 
 const StudentTable = dynamic(() => import("@/app/components/table/StudentTable"), {
   loading: () => {<Loader/>},  // You can display a loading message or spinner here
